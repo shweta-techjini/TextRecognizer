@@ -22,9 +22,9 @@
         android:layout_height="0dp"
         android:layout_weight="1.8"
         android:background="@android:color/white"
-        android:padding="5dp">
+        android:padding="5dp" android:scrollbars="vertical">
 
-        <LinearLayout
+        <LinearLayout android:id="@+id/contact_details"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
@@ -42,54 +42,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="scanned name"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/darker_gray"/>
-
-            <!--Phone -->
-            <TextView
-                android:id="@+id/phone_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Phone"
-                android:textColor="@android:color/black"/>
-
-            <EditText
-                android:id="@+id/phone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="scanned phone"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/darker_gray"/>
-
-            <!--Email -->
-            <TextView
-                android:id="@+id/email_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Email"
-                android:textColor="@android:color/black"/>
-
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="scanned email"
-                android:textColor="@android:color/black"
-                android:textColorHint="@android:color/darker_gray"/>
-
-            <!--Website -->
-            <TextView
-                android:id="@+id/website_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Website"
-                android:textColor="@android:color/black"/>
-
-            <EditText
-                android:id="@+id/website"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="scanned website"
                 android:textColor="@android:color/black"
                 android:textColorHint="@android:color/darker_gray"/>
 
